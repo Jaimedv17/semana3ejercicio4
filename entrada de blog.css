@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 3.5rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8;
+}
+/*................................................*/
+
+.contenidor{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+img{
+    width: 100%;
+    
+}
+
+span{
+    color: #037bc0;
+}
+
+.fecha{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.contenido{
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2rem;
+}
+
+
+
+/*.................................................*/
+.contenedorflex{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+    grid-gap: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.filas{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+
+.ultimop{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: rem;
+    text-align: center;
+}

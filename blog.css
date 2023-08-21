@@ -1,0 +1,116 @@
+h1{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 3.5rem;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.punto{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8;
+}
+
+h2{
+    font-size: 2.8rem;
+    padding-top:1.5rem ;
+}
+/*.................................................*/
+
+.nuestroblog{
+    text-align: center;
+}
+
+.contenedor{
+    width: 65%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 1rem;
+}
+
+img{
+    width: 100%;
+}
+
+.contenedorflexx{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+span{
+    color:#037bc0;
+}
+
+p{
+    padding: 1rem;
+}
+
+.texto{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2rem;
+}
+
+.boton{
+    display: block;
+    background-color: #8cbc00;
+    padding: 1rem;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 7rem;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.contenido2{
+    padding: 1.5rem
+}
+
+li{
+    padding: 1rem;
+    line-height: 5px;
+    font-size: 1.2rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+
+/*..........................................................*/
+.contenedorflex{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+    grid-gap: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.filas{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+
+.ultimop{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: rem;
+    text-align: center;
+}

@@ -1,0 +1,175 @@
+h1{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 3.5rem;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8;
+}
+
+h2{
+    font-size: 2.8rem;
+    padding-top:1.5rem ;
+}
+/*................CONTENEDOR 1...........................................*/
+
+h2{
+    text-align: center;
+}
+
+.contenedor{
+    overflow: hidden;
+    width: 65%;
+    height: 29rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+img{
+    max-width: 100%;
+}
+
+.contenido1{
+    grid-column: 1/4;
+}
+
+.contenido2{
+    grid-column: 4/5;
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+    background-color: #037bc0;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+.precio{
+    font-weight: 900;
+}
+
+.boton{
+    display: block;
+    font-weight:bold;
+    width: auto;
+    background-color: #8cbc00;
+    color: white;
+    padding: 1rem;
+}
+/*................CONTENEDOR 2....................................*/
+
+img{
+    max-width: 100%;
+}
+
+.contenedor2{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 65%;
+    height: 40rem;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    color: white;
+}
+
+.imagen2{
+    width: 100%;
+    height: 20rem;
+}
+
+.contenido3{
+    background-color: #037bc0;
+
+}
+
+.contenido4{
+    background-color: #037bc0;
+
+}
+
+.elemento{
+    text-align: center;
+    padding: 1rem;
+}
+
+.boton1{
+    display: block;
+    padding: 1rem;
+    background-color:#8cbc00;
+    color: white;
+    font-weight: bold;
+}
+/*.........................CONTENEDOR 3.................................*/
+.contenedor3{
+    width: 65%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    color: white;
+}
+
+.elemento1{
+    text-align: center;
+    padding: 1rem;
+}
+
+.boton2{
+    font-weight: bold;
+    color: white;
+    display: block;
+    padding: 1rem;
+    background-color: #8cbc00;
+}
+
+.c1{
+    background-color: #037bc0;
+}
+
+
+/*..............................................................................*/
+/*footer*/
+.contenedorflex{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+    grid-gap: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.filas{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+
+.ultimop{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: rem;
+    text-align: center;
+}

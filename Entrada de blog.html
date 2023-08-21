@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="entrada de blog.css">
 </head>
 <body>
     <header>
-        <h1>Tienda Muebles</h1>
+        <h1>Tienda <span style="color:#037bc0;">Muebles</span></h1>
         <hr>
         <nav>
             <ul>
@@ -23,85 +24,100 @@
 
     <br>
     <section>
-        <article>
+        <article class="contenidor">
             <h1>Entrada Blog</h1>
             <img src="imagenes/nosotros.jpg" alt="">
             <br>
-            <p>Fecha: 22 de Octubre de 2022</p>
-            <p>Escrito por: TiendaMuebles</p>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Laudantium id numquam 
-                ducimus alias commodi eveniet, impedit amet! 
-                Quidem et tempore obcaecati vitae voluptatibus ipsam? 
-                Quae repudiandae sequi quas numquam nam.
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Obcaecati provident beatae fugiat laudantium possimus harum, 
-                magnam architecto soluta doloribus itaque dolores amet 
-                maiores pariatur ea quisquam voluptatem numquam? In, 
-                nobis!
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Obcaecati provident beatae fugiat laudantium possimus harum, 
-                magnam architecto soluta doloribus itaque dolores amet maiores 
-                pariatur ea quisquam voluptatem numquam? In, nobis!   
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Obcaecati provident beatae fugiat laudantium possimus harum, 
-                magnam architecto soluta doloribus itaque dolores amet maiores 
-                pariatur ea quisquam voluptatem numquam? In, nobis!
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Obcaecati provident beatae fugiat laudantium possimus harum,          
-                magnam architecto soluta doloribus itaque dolores amet maiores 
-                pariatur ea quisquam voluptatem numquam? In, nobis!
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Obcaecati provident beatae fugiat laudantium possimus harum, 
-                magnam architecto soluta doloribus itaque dolores amet maiores 
-                pariatur ea quisquam voluptatem numquam? In, nobis!
-            </p>
+            <div class="contenido">
+                <div class="fecha">
+                <p>Fecha: <span>22 de Octubre de 2022</span></p>
+                <p>Escrito por: <span>TiendaMuebles</span></p>
+                </div>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Laudantium id numquam 
+                    ducimus alias commodi eveniet, impedit amet! 
+                    Quidem et tempore obcaecati vitae voluptatibus ipsam? 
+                    Quae repudiandae sequi quas numquam nam.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Obcaecati provident beatae fugiat laudantium possimus harum, 
+                    magnam architecto soluta doloribus itaque dolores amet 
+                    maiores pariatur ea quisquam voluptatem numquam? In, 
+                    nobis!
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Obcaecati provident beatae fugiat laudantium possimus harum, 
+                    magnam architecto soluta doloribus itaque dolores amet maiores 
+                    pariatur ea quisquam voluptatem numquam? In, nobis!   
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Obcaecati provident beatae fugiat laudantium possimus harum, 
+                    magnam architecto soluta doloribus itaque dolores amet maiores 
+                    pariatur ea quisquam voluptatem numquam? In, nobis!
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Obcaecati provident beatae fugiat laudantium possimus harum,          
+                    magnam architecto soluta doloribus itaque dolores amet maiores 
+                    pariatur ea quisquam voluptatem numquam? In, nobis!
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Obcaecati provident beatae fugiat laudantium possimus harum, 
+                    magnam architecto soluta doloribus itaque dolores amet maiores 
+                    pariatur ea quisquam voluptatem numquam? In, nobis!
+                </p>
+            </div>
         </article>
     </section>
 
     <hr>
     <footer>
-        <section>
-            <h2>Categorías</h2>
-            <nav>
-                <ul>
-                    <li><a href="">Cocina</a></li>
-                    <li><a href="">Oficina</a></li>
-                    <li><a href="">Jardin</a></li>
-                    <li><a href="">Cochera</a></li>
-                    <li><a href="">Dormitorio</a></li>
-                </ul>
-            </nav>
-        </section>
-        <section>
-            <h2>Sobre Nosotros</h2>
-            <nav>
-                <ul>
-                    <li><a href="">Nuestra Historia</a></li>
-                    <li><a href="">Misión, vision y valores</a></li>
-                    <li><a href="">Carreras</a></li>
-                    <li><a href="">Politica de privacidad</a></li>
-                    <li><a href="">Terminos de servicio</a></li>
-                </ul>
-            </nav>
-        </section>
-        <section>
-                <h2>Soporte</h2>
-                <nav>
-                    <ul>
-                        <li><a href="">Preguntas Frecuentes</a></li>
-                        <li><a href="">Ayuda en linea</a></li>
-                        <li><a href="">Confianza y seguridad</a></li>
-                    </ul>
-                </nav>
-            <h3>Todos los derechos Reservados, TiendaMuebles</h3>
-        </section>
+        <div class="contenedorflex">
+            <section class="navegacion">
+                
+                    
+                    <nav>
+                        <ul class="filas">
+                            <h2>Categorías</h2>
+                            <li><a href="">Cocina</a></li>
+                            <li><a href="">Oficina</a></li>
+                            <li><a href="">Jardin</a></li>
+                            <li><a href="">Cochera</a></li>
+                            <li><a href="">Dormitorio</a></li>
+                        </ul>
+                    </nav>
+                
+            </section>
+            <section class="navegacion">
+                
+                    
+                    <nav>
+                        <ul class="filas">
+                            <h2>Sobre Nosotros</h2>
+                            <li><a href="">Nuestra Historia</a></li>
+                            <li><a href="">Misión, vision y valores</a></li>
+                            <li><a href="">Carreras</a></li>
+                            <li><a href="">Politica de privacidad</a></li>
+                            <li><a href="">Terminos de servicio</a></li>
+                        </ul>
+                    </nav>
+                
+            </section>
+            <section class="navegacion">
+                
+                     
+                    <nav>
+                        <ul class="filas">
+                            <h2>Soporte</h2>
+                            <li><a href="">Preguntas Frecuentes</a></li>
+                            <li><a href="">Ayuda en linea</a></li>
+                            <li><a href="">Confianza y seguridad</a></li>
+                        </ul>
+                    </nav>
+                    
+            </section>
+        </div>
+        <p class="ultimop">Todos los derechos Reservados, TiendaMuebles</p> 
     </footer>
 </body>
 </html>

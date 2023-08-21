@@ -4,146 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="contacto.css">
 </head>
 <body>
     <header>
-        <h1>Tienda Muebles</h1>
+        <h1>Tienda <span style="color:#037bc0;">Muebles</span></h1>
         <hr>
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Nosotros.html">Nosotros</a></li>
-                <li><a href="Tienda.html">Tienda</a></li>
-                <li><a href="Blog.html">Blog</a></li>
-                <li><a href="Galeria.html">Galeria</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
+                <li class="punto"><a href="index.html">Inicio</a></li>
+                <li class="punto"><a href="Nosotros.html">Nosotros</a></li>
+                <li class="punto"><a href="Tienda.html">Tienda</a></li>
+                <li class="punto"><a href="Blog.html">Blog</a></li>
+                <li class="punto"><a href="Galeria.html">Galeria</a></li>
+                <li class="punto"><a href="Contacto.html">Contacto</a></li>
             </ul>
         </nav>
-    </header><br>
-    <section>
-        
-        <form action="">
+    </header>
+    <section class="contenedor">
         <h1>Contacto</h1>
-        <section>
+
+        
+        <section class="cuadro1">
+            
             <fieldset>
                 <legend>TUS DATOS</legend>
-            
-                <div>
-                    <label for="personName">Nombre:</label>
-                    <input type="text" id="personName" required>
-                </div>
-                <br>
-                <div>
-                    <label for="">Asunto:</label>
-                    <input type="text" required>
-                </div>
-                <br>
-                <div>
-                    <label for="personEmail">E-mail:</label>
-                    <input type="email" id="personEmail">
-                </div>
-                <br>
-                <div>
-                    <label for="personNamber">Teléfono:</label>
-                    <input type="text" id="personNamber">
-                </div>
-                <br>
-                <div>
-                    <label for="">Mensaje:</label><br>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-            </form>
+
+        <form action="">
+                <div class="contenido1">
+                    <div class="elemento">
+                        <label for="personName">Nombre:</label>
+                        <input type="text" id="personName" required placeholder="Tu Nombre">
+                    </div>
+                    <br>
+                    <div class="elemento">
+                        <label for="personAsunto">Asunto:</label>
+                        <input type="text" id="personAsunto" required placeholder="Tu Asunto">
+                    </div>
+                    <br>
+                    <div class="elemento">
+                        <label for="personEmail">E-mail:</label>
+                        <input type="email" id="personEmail" required placeholder="Tu Email">
+                    </div>
+                    <br>
+                    <div class="elemento">
+                        <label for="personNamber">Teléfono:</label>
+                        <input type="text" id="personNamber" required placeholder="Tu Telefono">
+                    </div>
+                    <br>
+                    <div class="elemento">
+                        <label for="">Mensaje:</label><br>
+                        <textarea class="mensaje" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>  
+
             </fieldset>
+            
         </section>
 
-        <br>
+        
 
-        <section>
+        <section class="cuadro2">
             <fieldset>
                 <legend>PAÍS</legend>
-            
-                <div>
-                    <label for="">País</label>
-                    <select name="" id="">
-                        <option value="">--seleccion--</option>
-                        <option value="">Mexico</option>
-                        <option value="">Perú</option>
-                        <option value="">Colombia</option>
-                        <option value="">Argentina</option>
-                        <option value="">España</option>
-                        <option value="">Chile</option>
-                    </select>
+                <div class="contenido1">
+                    <div class="elemento">
+                        <label for="">País</label>
+                        <select name="" id="">
+                            <option value="">--seleccion--</option>
+                            <option value="">Mexico</option>
+                            <option value="">Perú</option>
+                            <option value="">Colombia</option>
+                            <option value="">Argentina</option>
+                            <option value="">España</option>
+                            <option value="">Chile</option>
+                        </select>
+                    </div>
                 </div>
-            </form>
+            
             </fieldset>
         </section>
 
-        <br>
+        
 
-        <section>
+        <section class="cuadro3">
             <fieldset>
                 <legend>INFORMIÓN EXTRA</legend>
-            
-                <div>
-                    <label for="personRadio">Cliente</label>
-                    <input type="radio" id="personRadio" name="primero">
+                <div class="contenido1">
+                    <div class="elemento0">
+
+                        <label for="personRadio">Cliente</label>
+                        <input class="punto1" type="radio" id="personRadio" name="primero">
+                        
+                    </div>
+                    <div class="elemento0">
+                        
+                        <label for="personRadio">Proveedor</label>
+                        <input class="punto2" type="radio" id="personRadio" name="primero">
+                        
+                    </div>
+                    <br>
+                    <div class="elemento">
+                        <label for="">Categoria de interes</label><br>
+                        <textarea class="recuadro" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    
                 </div>
-                <div>
-                    <label for="personRadio">Proveedor</label>
-                    <input type="radio" id="personRadio" name="primero">
-                </div>
-                <br>
-                <div>
-                    <label for="">Categoria de interes</label><br>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-            </form>
+        
         </section>
 
-        <br>
-        
-            <section>
-                <button type="submit">ENVIAR FORMULARIO</button>
-            </section>
+            <button type="submit">ENVIAR FORMULARIO</button>
         </form>
     </section>
     <hr>
     <footer>
-        <section>
-            <h2>Categorías</h2>
-            <nav>
-                <ul>
-                    <li><a href="">Cocina</a></li>
-                    <li><a href="">Oficina</a></li>
-                    <li><a href="">Jardin</a></li>
-                    <li><a href="">Cochera</a></li>
-                    <li><a href="">Dormitorio</a></li>
-                </ul>
-            </nav>
-        </section>
-        <section>
-            <h2>Sobre Nosotros</h2>
-            <nav>
-                <ul>
-                    <li><a href="">Nuestra Historia</a></li>
-                    <li><a href="">Misión, vision y valores</a></li>
-                    <li><a href="">Carreras</a></li>
-                    <li><a href="">Politica de privacidad</a></li>
-                    <li><a href="">Terminos de servicio</a></li>
-                </ul>
-            </nav>
-        </section>
-        <section>
-                <h2>Soporte</h2>
-                <nav>
-                    <ul>
-                        <li><a href="">Preguntas Frecuentes</a></li>
-                        <li><a href="">Ayuda en linea</a></li>
-                        <li><a href="">Confianza y seguridad</a></li>
-                    </ul>
-                </nav>
-            <h3>Todos los derechos Reservados, TiendaMuebles</h3>
-        </section>
+        <div class="contenedorflex">
+            <section class="navegacion">
+                
+                    
+                    <nav>
+                        <ul class="filas">
+                            <h2>Categorías</h2>
+                            <li><a href="">Cocina</a></li>
+                            <li><a href="">Oficina</a></li>
+                            <li><a href="">Jardin</a></li>
+                            <li><a href="">Cochera</a></li>
+                            <li><a href="">Dormitorio</a></li>
+                        </ul>
+                    </nav>
+                
+            </section>
+            <section class="navegacion">
+                
+                    
+                    <nav>
+                        <ul class="filas">
+                            <h2>Sobre Nosotros</h2>
+                            <li><a href="">Nuestra Historia</a></li>
+                            <li><a href="">Misión, vision y valores</a></li>
+                            <li><a href="">Carreras</a></li>
+                            <li><a href="">Politica de privacidad</a></li>
+                            <li><a href="">Terminos de servicio</a></li>
+                        </ul>
+                    </nav>
+                
+            </section>
+            <section class="navegacion">
+                
+                     
+                    <nav>
+                        <ul class="filas">
+                            <h2>Soporte</h2>
+                            <li><a href="">Preguntas Frecuentes</a></li>
+                            <li><a href="">Ayuda en linea</a></li>
+                            <li><a href="">Confianza y seguridad</a></li>
+                        </ul>
+                    </nav>
+                    
+            </section>
+        </div>
+        <p class="ultimop">Todos los derechos Reservados, TiendaMuebles</p> 
     </footer>
 </body>
 </html>

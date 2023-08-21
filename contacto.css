@@ -1,0 +1,159 @@
+h1{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 3.5rem;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.punto{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8;
+}
+
+h2{
+    font-size: 2.8rem;
+    padding-top:1.5rem ;
+}
+/*.................................................................*/
+
+
+.cuadro1{
+    margin-bottom: 2rem;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+::placeholder{
+    font-size: 1.2rem;
+}
+
+.contenedor{
+    margin: 0 auto;
+    width: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido1{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+legend{
+    color: white;
+    text-align: center;
+    background-color: #005485;
+    padding: 0.8rem;
+    width: 95%;
+    font-weight: 900;
+}
+/*............................................................*/
+
+select{
+    font-size: 1.2rem;
+    border: 1px solid #e1e1e1;
+}
+
+input{
+    width:75%; 
+    padding: 0.7rem;
+    border: 1px solid #e1e1e1;
+}
+
+.mensaje{
+    width:78%;
+    height: 12rem;
+    border: 1px solid #e1e1e1;
+}
+
+.elemento{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*.............................................*/
+
+.cuadro2{
+    margin-bottom: 2rem;
+}
+
+select{
+    width: 79%;
+    padding: 0.7rem;
+}
+
+.contenido2{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.elemento0{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.punto1{
+    margin-left: 4rem;
+    width: 12px;
+}
+.punto2{
+    margin-left: 2.2rem;
+    width: 12px;
+}
+
+.recuadro{
+    height: 4rem;
+    border: 1px solid #e1e1e1;
+}
+
+button{
+    padding: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    background-color: #8cbc00;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+/*..........................................*/
+textarea{
+    width: 120%;
+    height: 4rem;
+}
+
+
+
+.contenedorflex{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+    grid-gap: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.filas{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+
+.ultimop{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: rem;
+    text-align: center;
+}
