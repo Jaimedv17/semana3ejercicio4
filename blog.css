@@ -76,6 +76,11 @@ p{
     margin-top: -1rem;
     color: white;
     font-weight: bold;
+    transition: 3s;
+}
+
+.boton:hover{
+    background-color:green ;
 }
 
 .contenido2{

@@ -77,6 +77,11 @@ p{
     background-color: #8cbc00;
     color: white;
     padding: 1rem;
+    transition: 3s;
+}
+
+.boton:hover{
+    background-color:green ;
 }
 /*................CONTENEDOR 2....................................*/
 
@@ -122,6 +127,11 @@ img{
     background-color:#8cbc00;
     color: white;
     font-weight: bold;
+    transition: 3s;
+}
+
+.boton1:hover{
+    background-color:green ;
 }
 /*.........................CONTENEDOR 3.................................*/
 .contenedor3{
@@ -144,11 +154,17 @@ img{
     display: block;
     padding: 1rem;
     background-color: #8cbc00;
+    transition: 3s;
+}
+
+.boton2:hover{
+    background-color:green ;
 }
 
 .c1{
     background-color: #037bc0;
 }
+
 
 
 /*..............................................................................*/

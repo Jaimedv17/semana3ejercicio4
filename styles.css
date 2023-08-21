@@ -189,7 +189,13 @@ p{
     background-color:#8cbc00;
     color: white;
     font-weight: bold;
+    transition: 3s;
 }
+
+.boton1:hover{
+    background-color:green ;
+}
+
 /*.........................CONTENEDOR 3.................................*/
 .contenedor5{
     width: 65%;
@@ -211,12 +217,16 @@ p{
     display: block;
     padding: 1rem;
     background-color: #8cbc00;
+    transition: 3s;
+}
+
+.boton2:hover{
+    background-color:green ;
 }
 
 .c1{
     background-color: #037bc0;
 }
-
 
 /*footer*/
 
